@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- drawable/circle_card_icon.xml -->
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="#A663CC"/>
+            <corners android:radius="8dp"></corners>
+            <size
+                android:width="32dp"
+                android:height="32dp"
+                />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_baseline_privacy_tip_24" />
+</layer-list>

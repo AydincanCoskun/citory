@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="co.citory.citory.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="co.citory.citory.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="co.citory.citory.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="co.citory.citory.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/signIn"
+        android:name="co.citory.citory.SignIn"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
+    <fragment
+        android:id="@+id/settingssFragment2"
+        android:name="co.citory.citory.SettingssFragment"
+        android:label="fragment_settingss"
+        tools:layout="@layout/fragment_settingss" />
+</navigation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settingscolor"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".SettingsFragment">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="407dp"
+            android:layout_height="769dp"
+            android:background="@color/settingscolor"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="673dp" >
+
+                <TextView
+                    android:id="@+id/buttonnn"
+                    android:layout_width="364dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="48dp"
+                    android:background="@drawable/email_pass"
+                    android:drawableStart="@drawable/ic_baseline_account_box_24"
+                    android:gravity="center|start|center_horizontal|left|fill_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:text="   Sign in / Sign up"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.488"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/buttonnn2"
+                    android:layout_width="364dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/email_pass"
+                    android:drawableStart="@drawable/user"
+                    android:gravity="center|start|center_horizontal|left|fill_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingTop="9dp"
+                    android:text="    FAQs"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.488"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonnn" />
+
+                <TextView
+                    android:id="@+id/buttonnn3"
+                    android:layout_width="364dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/email_pass"
+                    android:drawableStart="@drawable/star"
+                    android:gravity="center|start|center_horizontal|left|fill_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingTop="8dp"
+                    android:text="   Help"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.488"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonnn2" />
+
+                <TextView
+                    android:id="@+id/buttonnn4"
+                    android:layout_width="364dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/email_pass"
+                    android:drawableStart="@drawable/past"
+                    android:gravity="center_horizontal|left|fill_vertical"
+                    android:paddingStart="20dp"
+                    android:paddingTop="8dp"
+                    android:text="Privacy Policy and                  . Terms  and Conditions"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.488"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonnn3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

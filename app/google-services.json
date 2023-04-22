@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "590637871557",
+    "firebase_url": "https://citory-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "citory",
+    "storage_bucket": "citory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590637871557:android:0e7347423fb497bf6f9bac",
+        "android_client_info": {
+          "package_name": "co.citory.citory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590637871557-bm95992cnbqr3e1qadq6g4l53qmpl26r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.citory.citory",
+            "certificate_hash": "bb907d923e11f87299bd68d1df90b7530903f401"
+          }
+        },
+        {
+          "client_id": "590637871557-dpln3eir8cej36v1ngb4t5mqqv96tl9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5EM_69Hm4ilZrgVdn0bwZ83_I6FARis8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590637871557-dpln3eir8cej36v1ngb4t5mqqv96tl9n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "590637871557-1uk0kaunf07bci6aal3r7jcbi1mssun1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.citory.Citory-Guide"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590637871557:android:b0cea6297924ced76f9bac",
+        "android_client_info": {
+          "package_name": "com.berkay.citoryandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590637871557-vmrchaddpbh0c80dlbh502bnge1ttpcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.berkay.citoryandroid",
+            "certificate_hash": "b1dd4e85b5ea8845c2b640b74b9865b03c9dca8d"
+          }
+        },
+        {
+          "client_id": "590637871557-dpln3eir8cej36v1ngb4t5mqqv96tl9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5EM_69Hm4ilZrgVdn0bwZ83_I6FARis8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590637871557-dpln3eir8cej36v1ngb4t5mqqv96tl9n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "590637871557-1uk0kaunf07bci6aal3r7jcbi1mssun1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.citory.Citory-Guide"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
